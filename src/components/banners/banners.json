@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_banners_banners",
+  "info": {
+    "displayName": "Banners",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "leftBannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leftBannerLink": {
+      "type": "string"
+    },
+    "rightBannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "rightBannerLink": {
+      "type": "string"
+    },
+    "frontBannerImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "frontBannerLink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
